@@ -264,7 +264,6 @@ nav a {
     font-weight: bold;
 }
 .add, .reset {
-    border:none;
     padding:10px 15px;
     font-size:1.3rem;
     background:black;
@@ -276,21 +275,6 @@ nav a {
     font-size:1.3rem;
     background:rgb(0, 94, 170);
     color:white;
-}
-.add:hover {
-    background:white;
-    color:black;
-    cursor:pointer;
-    transition: .35s ease;
-}
-.reset:hover {
-    background:rgb(255, 0, 0);
-    color:white;
-    cursor:pointer;
-    transition: .35s ease;
-}
-.close:hover {
-    cursor:pointer;
 }
 @media (max-width:991px) {
     .add {
@@ -369,13 +353,33 @@ nav a {
         letter-spacing: 7px;
     }
 }
+@media (max-width:411px) {
+    .toCart {
+        top:10%;
+    }
+}
 @media (max-width:400px) {
     .toCart {
         top:9%;
     }
 }
+@media (max-width:375px) {
+    .toCart {
+        top:5%;
+    }
+}
+@media (max-width:360px) {
+    .toCart {
+        top:7.5%;
+    }
+}
 @media (max-width:300px) {
     .toCart {
         top:8%;
+    }
+}
+@media (max-width:280px) {
+    .toCart {
+        top:6%;
     }
 }
