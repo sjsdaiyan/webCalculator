@@ -345,7 +345,7 @@ nav a {
         position: fixed;
         right: 0;
         left: 0;
-        top: 16.6%;
+        top: 75px;
         width: 100%;
         border-radius: 0px;
         background: black;
@@ -355,36 +355,16 @@ nav a {
 }
 @media (max-width:414px) {
     .toCart {
-        top:11%;
-    }
-}
-@media (max-width:411px) {
-    .toCart {
-        top:10%;
+        top:70px;
     }
 }
 @media (max-width:400px) {
     .toCart {
-        top:9%;
+        top:47px;
     }
 }
 @media (max-width:375px) {
     .toCart {
-        top:5%;
-    }
-}
-@media (max-width:360px) {
-    .toCart {
-        top:7.5%;
-    }
-}
-@media (max-width:300px) {
-    .toCart {
-        top:8%;
-    }
-}
-@media (max-width:280px) {
-    .toCart {
-        top:6%;
+        top:45px;
     }
 }
