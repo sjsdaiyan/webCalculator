@@ -353,6 +353,11 @@ nav a {
         letter-spacing: 7px;
     }
 }
+@media (max-width:414px) {
+    .toCart {
+        top:11%;
+    }
+}
 @media (max-width:411px) {
     .toCart {
         top:10%;
